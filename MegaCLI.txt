@@ -1,0 +1,16 @@
+MegaCli64 -LDInfo -Lall -aALL 	查raid级别
+MegaCli64 -AdpAllInfo -aALL 	查raid卡信息
+MegaCli64 -PDList -aALL 	查看硬盘信息
+MegaCli64 -AdpBbuCmd -aAll 	查看电池信息
+MegaCli64 -FwTermLog -Dsply -aALL 	查看raid卡日志
+MegaCli64 -adpCount 		【显示适配器个数】
+MegaCli64 -AdpGetTime –aALL 	【显示适配器时间】
+MegaCli64 -AdpAllInfo -aAll 	【显示所有适配器信息】
+MegaCli64 -LDInfo -LALL -aAll 	显示所有逻辑磁盘组信息】
+MegaCli64 -PDList -aAll 	【显示所有的物理信息】
+MegaCli64 -AdpBbuCmd -GetBbuStatus -aALL |grep ‘Charger Status’ 	【查看充电状态】
+MegaCli64 -AdpBbuCmd -GetBbuStatus -aALL	【显示BBU状态信息】
+MegaCli64 -AdpBbuCmd -GetBbuCapacityInfo -aALL	【显示BBU容量信息】
+MegaCli64 -AdpBbuCmd -GetBbuDesignInfo -aALL 	【显示BBU设计参数】
+MegaCli64 -AdpBbuCmd -GetBbuProperties -aALL 	【显示当前BBU属性】
+MegaCli64 -cfgdsply -aALL 			【显示Raid卡型号，Raid设置，Disk相关信息】
